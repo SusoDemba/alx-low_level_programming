@@ -1,1 +1,1 @@
-# This repository is contains my projects on C programming Language
+# This repository contains my alx projects on C programming Language
