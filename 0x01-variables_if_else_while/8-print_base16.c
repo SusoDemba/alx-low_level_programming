@@ -5,8 +5,7 @@
  * variable num is initialized to 0
  * while content in num is <= 9, content in num is printed
  * then num is incremented by one for the subsequent iteration
- * when the condition fails, it moves to the second for loop
- * 
+ * when the condition fails, it moves to the second for loop.
  * Then for the second for loop:
  * variable num is overwritten with a
  * while content in num is <= f, content in num is printed
