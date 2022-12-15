@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
-  * variable letter starts with a and keeps on changing to the next letter 
+  * main - Entry point
+  * variable letter starts with a and keeps on changing to the next letter
   * after every iteration
   * In each iterarion, if letter is smaller than z and not e or q,
   * it prints the letter
-  * returns 0
+  * Return: Always 0 (Success)
   */
 
 int main(void)
