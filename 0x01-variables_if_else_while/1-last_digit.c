@@ -2,12 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
+/**
+ * main - Entry point
  * This 'main' function generates random number and store it in variable n
  * The last digit of n is stored in variable l_digit
  * If l_digit is equal to 0, it prints a message that it's equal to 0
  * Else if last digit is less than 6 and not equal to 0, it prints a message for less than 6 but not 0
  * Otherwise, it prints a message that last digit is greater than 5
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
