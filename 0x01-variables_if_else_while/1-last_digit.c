@@ -19,7 +19,8 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* l_digit contains the last digit of the variable n */
 
-	char l_digit = n % 10;
+	char l_digit;
+	l_digit = n % 10;
 	if (l_digit < 6)
 	{
 		if (l_digit == 0)
