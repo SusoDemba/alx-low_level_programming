@@ -7,6 +7,7 @@
  * random number is assigned intoviriable n. If n > 0, print is positive
  * else if n == 0, print it's zero
  * otherwise, print it's negative
+ * main returns 0
  */
 int main(void)
 {
