@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -18,7 +19,7 @@ int largest_number(int a, int b, int c)
         largest = b;
     else
 	largest = c;
-    _putchar(largest);
+    printf("%d is the largest number\n"largest);
 
     return (largest);
 }
