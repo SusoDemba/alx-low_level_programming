@@ -3,6 +3,8 @@
 /**
  * swap_int(int *a, int *b) - swaps the value of the
  * two parameters
+ * @a: value to be swapped
+ * @b: value to be swapped
  * Return: nothing
  */
 void swap_int(int *a, int *b)
@@ -11,5 +13,5 @@ void swap_int(int *a, int *b)
 
 	tmp = *a;
 	*a = *b;
-	*b = *b;
+	*b = tmp;
 }
