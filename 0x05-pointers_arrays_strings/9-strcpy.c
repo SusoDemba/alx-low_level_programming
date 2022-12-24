@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * get_length - calculates the length of the string
+ * character that's passed in it
+ * Return: length
  */
 int get_length(char *s)
 {
