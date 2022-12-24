@@ -9,10 +9,10 @@ int length_of_the_string(char *s)
 {
 	int length = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
 		length++;
-		str++;
+		s++;
 	}
 
 	return (length);
@@ -27,15 +27,15 @@ int length_of_the_string(char *s)
 
 void puts_half(char *str)
 {
-	int i;
 	int lg;
+	int i;
 
 	lg = length_of_the_string(str);
 
 	if (lg % 2 == 0)
 		i = lg / 2;
 	else
-		i = (lg + 1) / 2
+		i = (lg + 1) / 2;
 
 	while ( i < lg )
 	{
