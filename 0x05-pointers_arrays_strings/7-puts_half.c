@@ -2,7 +2,7 @@
 
 /**
  * length_of_the_string - calculates the length of the
- * @*s: param that is passed to the function
+ * @s: param that is passed to the function
  * Return: the length of the string
  */
 int length_of_the_string(char *s)
