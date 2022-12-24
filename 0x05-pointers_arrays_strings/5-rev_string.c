@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverses the string of the
- * the @*s param
+ * @s: param the string to passed inside
  * Return: nothing
  */
 void rev_string(char *s)
@@ -21,8 +21,7 @@ void rev_string(char *s)
 	 *  therefore, we bring the pointer back by one place so that
 	 *  it points to the last character of the string
 	 */
-	--lg;
-	while (lg > i)
+	while (lg >= i)
 	{
 		tmp = s[i];
 		s[i] = s[lg];
