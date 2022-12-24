@@ -3,6 +3,8 @@
 /**
  * print_rev - prints a string, in reverse,
  * followed by a new line
+ * @s: the string that is passed to the
+ * function as formal paramenter
  * Return: nothing
  */
 void print_rev(char *s)
