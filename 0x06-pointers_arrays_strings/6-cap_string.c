@@ -9,7 +9,6 @@
 int is_separator(char c)
 {
 	int i;
-
 	char word_separator[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
 	i = 0;
@@ -46,5 +45,5 @@ char *cap_string(char *c)
 		i++;
 	}
 
-	return (s);
+	return (c);
 }
